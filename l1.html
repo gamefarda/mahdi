@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اپ تاب 1</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, tomato, lightblue);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            direction: rtl;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+
+        .menu {
+            padding: 0.1%;
+            background-color: rgba(255, 255, 255, 0.25);
+            border: 1px solid;
+            border-radius: 10px;
+            border-color: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12pc);
+            box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.25);
+            text-align: center;
+
+        }
+
+        .menu li {
+            display: inline-table;
+            text-align: center;
+            padding: 1%;
+            background-color: rgba(255, 255, 255, 0.304);
+            border: 1px solid;
+            border-color: rgba(255, 255, 255, 0.304);
+            border-radius: 10px;
+
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .menu li:hover {
+            background-color: rgba(195, 192, 192, 0.25);
+            transition: all 0.4s ease;
+        }
+
+        .l {
+            background-color: rgba(255, 255, 255, 0.304);
+            border: 1px solid;
+            border-color: rgba(255, 255, 255, 0.304);
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.304);
+        }
+
+        .l li {
+            display: inline-table;
+            box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.304);
+        }
+
+        .l li p {
+            background-color: rgba(255, 255, 255, 0.304);
+            border: 1px solid;
+            border-color: rgba(255, 255, 255, 0.25);
+            border-radius: 10px;
+            width: 50%;
+            box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.304);
+
+        }
+
+        .pic {
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.304);
+        }
+        .b{
+            background-color: rgba(255, 255, 255, 0.304);
+            border: 1px solid;
+            border-color: rgba(255, 255, 255, 0.25);
+            border-radius: 10px;
+        }
+        .b:hover{
+              background-color: rgba(255, 255, 255, 0.689);
+            border: 1px solid;
+            border-color: rgba(255, 255, 255, 0.25);
+            border-radius: 10px;
+            transition: all 0.4s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <br>
+        <!--menu-->
+        <div class="menu">
+            <ul>
+                <a href="index.html">
+                    <Li>خانه</Li>
+                </a>
+                <a href="aboutus.html">
+                    <li>درباره ما</li>
+                </a>
+                <a href="acount.html">
+                    <li>حساب کاربری</li>
+                </a>
+                <a href="contact.html">
+                    <li>تماس با ما</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <br>
+    <main>
+        <div class="l">
+            <ul>
+                <li>
+                    <img src="lops/1.jpeg" width="200px" height="150px" class="pic">
+                    <p>لپ‌تاپ Razer 3200K با طراحی باریک و بدنه‌ی آلومینیومی، ترکیبی از زیبایی و قدرت است.
+
+                        این دستگاه مجهز به پردازنده‌ی پرقدرت نسل جدید بوده و توان اجرای بازی‌ها و نرم‌افزارهای سنگین را
+                        دارد.
+
+                        نمایشگر ۱۵.۶ اینچی آن با کیفیت 4K تجربه‌ای شفاف و رنگ‌هایی زنده ارائه می‌دهد.
+
+                        سیستم خنک‌کننده‌ی پیشرفته، عملکرد پایدار را حتی در استفاده‌های طولانی تضمین می‌کند.
+
+                        نورپردازی RGB کیبورد به سبک خاص Razer، حس گیمینگ حرفه‌ای را دوچندان می‌سازد.</p>
+                    <button onclick="buy()" class="b">خرید</button>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        function buy() {
+            alert("ما همچین قابلیتی نداریم!")
+        }
+    </script>
+</body>
+
+</html>
